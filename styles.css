@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #005bb5;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ffffff;
+    color: #0072ff;
+    font-weight: bold;
+    border: 2px solid #0072ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0072ff;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+form input {
+    width: 90%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#savings-result, #retirement-result {
+    margin-top: 1.5rem;
+    background-color: #e0f7fa;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #00796b;
+}
